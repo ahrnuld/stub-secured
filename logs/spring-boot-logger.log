@@ -1,0 +1,160 @@
+2022-04-28 16:23:47,186 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Swagger2SpringBoot on Elitebook with PID 6988 (C:\Users\Mark.deHaan\Desktop\stub\target\classes started by Mark.deHaan in C:\Users\Mark.deHaan\Desktop\stub)
+2022-04-28 16:23:47,192 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-04-28 16:23:49,457 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-28 16:23:49,654 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 193ms. Found 1 JPA repository interfaces.
+2022-04-28 16:23:50,078 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-28 16:23:50,081 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-28 16:23:50,083 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2022-04-28 16:23:50,144 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-28 16:23:50,145 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2939 ms
+2022-04-28 16:23:50,502 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Starting...
+2022-04-28 16:23:50,507 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-8 - Start completed.
+2022-04-28 16:23:50,674 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-28 16:23:50,876 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-28 16:23:51,164 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@370443dc'
+2022-04-28 16:23:51,168 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-28 16:23:51,237 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-28 16:23:52,467 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-28 16:23:52,627 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-28 16:23:53,033 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-28 16:23:53,037 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Swagger2SpringBoot in 6.148 seconds (JVM running for 458.503)
+2022-04-28 16:23:53,050 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-28 16:24:11,524 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-53] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-28 16:24:11,526 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-53] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-28 16:24:11,526 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-53] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-28 16:24:11,738 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-53] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-28 16:24:11,738 INFO com.zaxxer.hikari.HikariDataSource [Thread-53] HikariPool-8 - Shutdown initiated...
+2022-04-28 16:24:11,909 INFO com.zaxxer.hikari.HikariDataSource [Thread-53] HikariPool-8 - Shutdown completed.
+2022-04-28 16:24:20,898 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Swagger2SpringBoot on Elitebook with PID 16236 (C:\Users\Mark.deHaan\Desktop\stub\target\classes started by Mark.deHaan in C:\Users\Mark.deHaan\Desktop\stub)
+2022-04-28 16:24:20,904 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-04-28 16:24:21,163 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-28 16:24:21,165 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-28 16:24:24,297 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-28 16:24:24,652 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 340ms. Found 1 JPA repository interfaces.
+2022-04-28 16:24:26,112 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-28 16:24:26,138 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-28 16:24:26,159 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-28 16:24:26,160 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2022-04-28 16:24:26,392 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-28 16:24:26,393 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5227 ms
+2022-04-28 16:24:26,703 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-04-28 16:24:26,879 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-04-28 16:24:27,055 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-28 16:24:27,175 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.3.17.Final}
+2022-04-28 16:24:27,178 INFO org.hibernate.cfg.Environment [restartedMain] HHH000206: hibernate.properties not found
+2022-04-28 16:24:27,434 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2022-04-28 16:24:27,724 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-28 16:24:28,892 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7c159f22'
+2022-04-28 16:24:28,900 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-28 16:24:28,988 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-28 16:24:30,330 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-28 16:24:30,851 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-28 16:24:31,662 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-28 16:24:31,759 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-28 16:24:31,767 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Swagger2SpringBoot in 11.64 seconds (JVM running for 14.752)
+2022-04-28 16:31:02,376 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-5] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-28 16:31:02,387 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-28 16:31:02,391 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-5] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-28 16:31:02,427 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-5] HHH000478: Unsuccessful: drop table manufacturer if exists
+2022-04-28 16:31:02,780 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-5] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-28 16:31:02,793 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2022-04-28 16:31:02,876 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2022-04-28 16:31:03,242 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Swagger2SpringBoot on Elitebook with PID 16236 (C:\Users\Mark.deHaan\Desktop\stub\target\classes started by Mark.deHaan in C:\Users\Mark.deHaan\Desktop\stub)
+2022-04-28 16:31:03,243 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-04-28 16:31:05,014 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-28 16:31:05,169 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 154ms. Found 1 JPA repository interfaces.
+2022-04-28 16:31:05,497 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-28 16:31:05,499 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-28 16:31:05,500 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-28 16:31:05,502 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2022-04-28 16:31:05,541 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-28 16:31:05,542 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2265 ms
+2022-04-28 16:31:05,687 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2022-04-28 16:31:05,691 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2022-04-28 16:31:05,773 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-28 16:31:05,828 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-28 16:31:05,966 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7c159f22'
+2022-04-28 16:31:05,967 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-28 16:31:06,006 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-28 16:31:06,351 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-28 16:31:06,511 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-28 16:31:06,785 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-28 16:31:06,794 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-28 16:31:06,796 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Swagger2SpringBoot in 3.7 seconds (JVM running for 409.781)
+2022-04-28 16:31:06,802 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-28 16:31:37,209 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-10] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-28 16:31:37,213 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-10] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-28 16:31:37,215 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-10] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-28 16:31:37,215 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-10] HHH000478: Unsuccessful: drop table manufacturer if exists
+2022-04-28 16:31:37,438 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-10] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-28 16:31:37,449 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-2 - Shutdown initiated...
+2022-04-28 16:31:37,464 INFO com.zaxxer.hikari.HikariDataSource [Thread-10] HikariPool-2 - Shutdown completed.
+2022-04-28 16:31:38,254 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Swagger2SpringBoot on Elitebook with PID 16236 (C:\Users\Mark.deHaan\Desktop\stub\target\classes started by Mark.deHaan in C:\Users\Mark.deHaan\Desktop\stub)
+2022-04-28 16:31:38,260 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-04-28 16:31:39,705 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-28 16:31:39,830 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 125ms. Found 1 JPA repository interfaces.
+2022-04-28 16:31:40,114 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-28 16:31:40,116 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-28 16:31:40,117 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-28 16:31:40,117 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2022-04-28 16:31:40,177 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-28 16:31:40,177 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1896 ms
+2022-04-28 16:31:40,335 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2022-04-28 16:31:40,344 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2022-04-28 16:31:40,443 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-28 16:31:40,534 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-28 16:31:40,681 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7c159f22'
+2022-04-28 16:31:40,682 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-28 16:31:40,708 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-28 16:31:41,021 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-28 16:31:41,164 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-28 16:31:41,482 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-28 16:31:41,501 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-28 16:31:41,503 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Swagger2SpringBoot in 3.542 seconds (JVM running for 444.487)
+2022-04-28 16:31:41,509 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-28 16:34:05,204 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-16] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-28 16:34:05,210 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-16] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-28 16:34:05,212 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-16] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-28 16:34:05,217 ERROR org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-16] HHH000478: Unsuccessful: drop table manufacturer if exists
+2022-04-28 16:34:05,431 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-16] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-28 16:34:05,432 INFO com.zaxxer.hikari.HikariDataSource [Thread-16] HikariPool-3 - Shutdown initiated...
+2022-04-28 16:34:05,433 INFO com.zaxxer.hikari.HikariDataSource [Thread-16] HikariPool-3 - Shutdown completed.
+2022-04-28 16:34:05,593 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting Swagger2SpringBoot on Elitebook with PID 16236 (C:\Users\Mark.deHaan\Desktop\stub\target\classes started by Mark.deHaan in C:\Users\Mark.deHaan\Desktop\stub)
+2022-04-28 16:34:05,594 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-04-28 16:34:06,838 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-28 16:34:06,939 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 101ms. Found 1 JPA repository interfaces.
+2022-04-28 16:34:07,199 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-04-28 16:34:07,201 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-28 16:34:07,202 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-04-28 16:34:07,202 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.37]
+2022-04-28 16:34:07,272 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-04-28 16:34:07,272 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1674 ms
+2022-04-28 16:34:07,406 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2022-04-28 16:34:07,411 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2022-04-28 16:34:07,483 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2022-04-28 16:34:07,546 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-04-28 16:34:07,640 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7c159f22'
+2022-04-28 16:34:07,641 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-28 16:34:07,669 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-04-28 16:34:07,947 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-28 16:34:08,080 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2022-04-28 16:34:08,275 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-28 16:34:08,283 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-28 16:34:08,284 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started Swagger2SpringBoot in 2.75 seconds (JVM running for 591.268)
+2022-04-28 16:34:08,288 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-04-28 16:54:44,055 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-27] Shutting down ExecutorService 'applicationTaskExecutor'
+2022-04-28 16:54:44,058 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-27] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-28 16:54:44,059 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [Thread-27] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-04-28 16:54:44,269 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-27] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-28 16:54:44,270 INFO com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-4 - Shutdown initiated...
+2022-04-28 16:54:44,333 INFO com.zaxxer.hikari.HikariDataSource [Thread-27] HikariPool-4 - Shutdown completed.
