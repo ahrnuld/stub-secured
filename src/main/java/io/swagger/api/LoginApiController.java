@@ -1,9 +1,13 @@
 package io.swagger.api;
 
 import io.swagger.annotations.Api;
+import io.swagger.jwt.JwtTokenProvider;
 import io.swagger.model.LoginDTO;
 import io.swagger.model.LoginResponseDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.swagger.model.ProductDTO;
+import io.swagger.repository.UserRepository;
+import io.swagger.service.LoginService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
@@ -15,8 +19,12 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.CookieValue;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,6 +34,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RequestPart;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.server.ResponseStatusException;
 
 import javax.validation.constraints.*;
 import javax.validation.Valid;
@@ -45,6 +54,10 @@ public class LoginApiController implements LoginApi {
 
     private final HttpServletRequest request;
 
+
+    @Autowired
+    private LoginService loginService;
+
     @org.springframework.beans.factory.annotation.Autowired
     public LoginApiController(ObjectMapper objectMapper, HttpServletRequest request) {
         this.objectMapper = objectMapper;
@@ -52,17 +65,12 @@ public class LoginApiController implements LoginApi {
     }
 
     public ResponseEntity<LoginResponseDTO> login(@Parameter(in = ParameterIn.DEFAULT, description = "Request body to login a user", required=true, schema=@Schema()) @Valid @RequestBody LoginDTO body) {
-        String accept = request.getHeader("Accept");
-        if (accept != null && accept.contains("application/json")) {
-            try {
-                return new ResponseEntity<LoginResponseDTO>(objectMapper.readValue("{\n  \"token\" : \"SomeToken\"\n}", LoginResponseDTO.class), HttpStatus.NOT_IMPLEMENTED);
-            } catch (IOException e) {
-                log.error("Couldn't serialize response for content type application/json", e);
-                return new ResponseEntity<LoginResponseDTO>(HttpStatus.INTERNAL_SERVER_ERROR);
-            }
-        }
 
-        return new ResponseEntity<LoginResponseDTO>(HttpStatus.NOT_IMPLEMENTED);
+        String token = loginService.login(body.getUsername(), body.getPassword());
+
+        LoginResponseDTO response = new LoginResponseDTO();
+        response.setToken(token);
+
+        return new ResponseEntity<LoginResponseDTO>(response, HttpStatus.CREATED);
     }
-
 }
